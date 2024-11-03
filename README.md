@@ -46,8 +46,8 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+C:\Users\Joel Saji\Desktop\hackathon\useless_project_pazhampori\pazhampori.png
+** THis image shows the landing page of the website aura paz
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
