@@ -1,0 +1,206 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://path-to-your-banana-plantation-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+ 
+}
+.container{
+    background-color: #fff;
+    height: 300px;
+    width: 800px;
+   position: absolute;
+   border-radius: 25px;
+   border :10px solid #F7F700;
+   z-index: 9;
+}
+.container h1{
+    padding-top: 50px;
+   
+}
+.container1 h2{
+    color: #000;
+}
+.container1{
+    margin-top: 800px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent */
+    width: 800px;
+    border-radius: 25px;
+    border: 10px solid #F7F700;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px; /* Add some padding */
+}
+.image-container {
+    position: absolute; /* Make the image container fixed on the left */
+    top: 40px; /* Adjust the top position as needed */
+    left: 50px; /* Position it to the left */
+    :nth-child(1) { top: 10%; left: 5%; transform: rotate(-15deg); }
+    :nth-child(2) { top: 20%; left: 30%; transform: rotate(10deg) scale(0.9); }
+    :nth-child(3) { top: 40%; left: 10%; transform: rotate(-25deg) scale(1.2); }
+    :nth-child(4) { top: 50%; left: 70%; transform: rotate(15deg); }
+    :nth-child(5) { top: 70%; left: 20%; transform: rotate(-10deg) scale(1.2); }
+    :nth-child(6) { top: 80%; left: 80%; transform: rotate(20deg); }
+    :nth-child(7) { top: 60%; left: 50%; transform: rotate(-5deg) scale(0.9); }
+    :nth-child(8) { top: 30%; left: 80%; transform: rotate(-15deg); }
+    :nth-child(9) { top: 15%; left: 60%; transform: rotate(5deg) scale(1.2); }
+    :nth-child(10) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(11) { top: 10%; left: 5%; transform: rotate(-15deg); }
+    :nth-child(12) { top: 20%; left: 30%; transform: rotate(10deg) scale(0.9); }
+    :nth-child(13) { top: 40%; left: 10%; transform: rotate(-25deg) scale(1.2); }
+    :nth-child(14) { top: 50%; left: 70%; transform: rotate(15deg); }
+    :nth-child(15) { top: 70%; left: 20%; transform: rotate(-10deg) scale(1.3); }
+    :nth-child(16) { top: 80%; left: 80%; transform: rotate(20deg); }
+    :nth-child(17) { top: 60%; left: 50%; transform: rotate(-5deg) scale(0.9); }
+    :nth-child(18) { top: 30%; left: 80%; transform: rotate(-15deg); }
+    :nth-child(19) { top: 15%; left: 60%; transform: rotate(5deg) scale(1.2); }
+    :nth-child(20) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(21) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(22) { top: 20%; left: 30%; transform: rotate(10deg) scale(0.9); }
+    :nth-child(23) { top: 40%; left: 10%; transform: rotate(-25deg) scale(1.2); }
+    :nth-child(24) { top: 50%; left: 70%; transform: rotate(15deg); }
+    :nth-child(25) { top: 70%; left: 20%; transform: rotate(-10deg) scale(1.3); }
+    :nth-child(26) { top: 80%; left: 80%; transform: rotate(20deg); }
+    :nth-child(27) { top: 60%; left: 50%; transform: rotate(-5deg) scale(0.9); }
+    :nth-child(28) { top: 30%; left: 80%; transform: rotate(-15deg); }
+    :nth-child(29) { top: 15%; left: 60%; transform: rotate(5deg) scale(1.2); }
+    :nth-child(30) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(31) { top: 40%; left: 10%; transform: rotate(-25deg) scale(1.2); }
+    :nth-child(32) { top: 50%; left: 70%; transform: rotate(15deg); }
+    :nth-child(33) { top: 70%; left: 20%; transform: rotate(-10deg) scale(1.3); }
+    :nth-child(34) { top: 80%; left: 80%; transform: rotate(20deg); }
+    :nth-child(35) { top: 60%; left: 50%; transform: rotate(-5deg) scale(0.9); }
+    :nth-child(36) { top: 30%; left: 80%; transform: rotate(-15deg); }
+    :nth-child(37) { top: 15%; left: 60%; transform: rotate(5deg) scale(1.2); }
+    :nth-child(38) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(39) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(40) { top: 20%; left: 30%; transform: rotate(10deg) scale(0.9); }
+    :nth-child(41) { top: 40%; left: 10%; transform: rotate(-25deg) scale(1.2); }
+    :nth-child(42) { top: 50%; left: 70%; transform: rotate(15deg); }
+    :nth-child(43) { top: 70%; left: 20%; transform: rotate(-10deg) scale(1.3); }
+    :nth-child(44) { top: 80%; left: 80%; transform: rotate(20deg); }
+    :nth-child(46) { top: 60%; left: 50%; transform: rotate(-5deg) scale(0.9); }
+    :nth-child(47) { top: 30%; left: 80%; transform: rotate(-15deg); }
+    :nth-child(48) { top: 15%; left: 60%; transform: rotate(5deg) scale(1.2); }
+    :nth-child(49) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+    :nth-child(50) { top: 30%; left: 80%; transform: rotate(-15deg); }
+    :nth-child(51) { top: 15%; left: 60%; transform: rotate(5deg) scale(1.2); }
+    :nth-child(52) { top: 65%; left: 35%; transform: rotate(-20deg) scale(1.1); }
+
+
+}
+
+.image-container img {
+    width: 200px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounding corners */
+    
+}
+
+
+.title {
+    font-size: 3rem;
+    color: yellow;
+    text-shadow: 2px 2px 5px #000;
+    animation: bounce 1.5s infinite;
+}.section-title {
+    font-size: 2.5rem;
+    color: yellow;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+/* Funky animation */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #ff8800;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+}
+#leaderboard {
+    width: 80%;
+    max-width: 600px;
+}
+
+#leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+#leaderboard-table th, #leaderboard-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#leaderboard-table th {
+    background-color: #FFA500;
+    color: #fff;
+}
